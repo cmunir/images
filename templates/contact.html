@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Institute</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+</head>
+<style>
+    #nameid{
+        font-size: 30px;
+        color: red;
+        font-family:"Times New Roman";
+        text-shadow: 2px 2px 2px blue;
+    }
+    nav{
+        float:right;
+        font-size: 25px;
+        text-shadow: 2px 2px 3px red;
+    }
+    a{
+        margin-right: -1%;
+        text-decoration: none;
+        border: 2px red solid;
+        border-radius: 10px;
+        background-color: green;
+        color: white;
+    }
+    a:hover{
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+    }
+    #h1id{
+        font-size: 50px;
+        color:white;
+        background-color:green;
+        border: 2px solid green;
+        border-radius: 50px;
+        text-shadow: 3px 3px red, 5px 5px black;
+    }
+
+    pre{
+        color: white;
+    }
+    .div1{
+        font-size: 20px;
+        text-align: center;
+         background-color:green;
+        border-radius: 30px;
+        color: white;
+        box-shadow: 10px 10px 10px red, 15px 15px 15px blue;
+    }
+    .col-md-6{
+        border: 2px blue solid;
+        border-radius: 20px;
+    }
+
+    .h21{
+        text-shadow: 3px 3px 3px red, 5px 5px 5px black;
+    }
+    .con_h21{
+        border-radius: 20px;
+        font-size: 25px;
+        text-shadow: 3px 3px 3px red, 5px 5px 5px black;
+    }
+    .ser_h21{
+        background-color:rgba(13,198,35,0.97);
+        border-radius: 50px;
+        text-shadow: 3px 3px 3px red, 5px 5px 5px black;
+    }
+
+    .fb_h1{
+        border-radius: 20px;
+        text-shadow: 3px 3px 3px red, 5px 5px 5px black;
+        box-shadow: 10px 10px 10px red;
+    }
+
+</style>
+<body>
+<p id="pp1">
+<nav>
+    <a href="/home/">Home</a>
+    <a href="/contact/">Contact</a>
+    <a href="/services/">Services</a>
+    <a href="/feedback/">Feedback</a>
+    <a href="/gallery/">Gallery</a>
+</nav>
+</p>
+<br><br>
+<div class="container">
+<center><h6>This Project is under construction</h6></center>
+<center><h1 id="h1id">Welcome to Djangosoft</h1></center>
+
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="offset-md-2 col-md-8">
+            <form method="POST">
+                <h1 class="text-center text-white bg-success con_h21">Please Enter Your Contact Details</h1>
+                <input type='hidden' name='csrfmiddlewaretoken' value='yuWH0k3wPnr6EoQh7HykSOc8TdcIeFIj' />
+                <tr><th><label for="id_name">Enter Your Name:</label></th><td><input class="form-control" id="id_name" name="name" placeholder="Your Name" type="text" /></td></tr>
+<tr><th><label for="id_email">Enter Your Email:</label></th><td><input class="form-control" id="id_email" name="email" placeholder="Your Email" type="email" /></td></tr>
+<tr><th><label for="id_mobile">Enter Your Mobile Number:</label></th><td><input class="form-control" id="id_mobile" name="mobile" placeholder="Your Mobile Number" type="number" /></td></tr>
+<tr><th><label for="id_courses_0">Courses:</label></th><td><ul id="id_courses"><li><label for="id_courses_0"><input id="id_courses_0" name="courses" type="checkbox" value="python" /> Python</label></li>
+<li><label for="id_courses_1"><input id="id_courses_1" name="courses" type="checkbox" value="django" /> Django</label></li>
+<li><label for="id_courses_2"><input id="id_courses_2" name="courses" type="checkbox" value="api" /> API</label></li>
+<li><label for="id_courses_3"><input id="id_courses_3" name="courses" type="checkbox" value="ui" /> UI</label></li>
+<li><label for="id_courses_4"><input id="id_courses_4" name="courses" type="checkbox" value="flask" /> Flask</label></li></ul></td></tr>
+<tr><th><label for="id_location_0">Location:</label></th><td><ul id="id_location"><li><label for="id_location_0"><input id="id_location_0" name="location" type="checkbox" value="hyd" /> Hyderabad</label></li>
+<li><label for="id_location_1"><input id="id_location_1" name="location" type="checkbox" value="bang" /> Bangalore</label></li>
+<li><label for="id_location_2"><input id="id_location_2" name="location" type="checkbox" value="che" /> Chennai</label></li></ul></td></tr>
+<tr><th><label for="id_shift_0">Shift:</label></th><td><ul id="id_shift"><li><label for="id_shift_0"><input id="id_shift_0" name="shift" type="checkbox" value="morning" /> Morning</label></li>
+<li><label for="id_shift_1"><input id="id_shift_1" name="shift" type="checkbox" value="afternoon" /> Afternoon</label></li>
+<li><label for="id_shift_2"><input id="id_shift_2" name="shift" type="checkbox" value="evening" /> Evening</label></li>
+<li><label for="id_shift_3"><input id="id_shift_3" name="shift" type="checkbox" value="night" /> Night</label></li></ul></td></tr><br>
+                <center>
+                <input type="submit" value="Submit" class="btn btn-success">
+                <input type="reset" value="Clear" class="btn btn-danger">
+                </center>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+
+<br>
+<div class="container-fluid div1">
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                <h2 class="h21">Address-1</h2>
+                <pre>
+Narayana
+9010607010
+pythonnarayana@gmail.com
+durgasoft
+hyderabad
+                </pre></div></div>
+        <div class="col-md-4">
+        <div>
+            <h2 class="h21">Address-2</h2>
+        <pre>
+Narayana
+9010607010
+pythonnarayana@gmail.com
+durgasoft
+hyderabad
+        </pre></div></div>
+        <div class="col-md-4">
+        <div>
+            <h2 class="h21">Address-3</h2>
+        <pre>
+Narayana
+9010607010
+pythonnarayana@gmail.com
+durgasoft
+hyderabad
+        </pre></div></div></div></div></div>
+</body>
+</html>
